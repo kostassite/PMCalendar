@@ -39,7 +39,7 @@ static inline CGSize UIOffsetToCGSize(UIOffset offset)
 
 // Logging
 
-#define DEBUG_LOGS
+//#define DEBUG_LOGS
 
 #ifdef DEBUG_LOGS
 #define PMLog(message, ...) NSLog((@"PMLOG: %s [Line %d] " message), __PRETTY_FUNCTION__, __LINE__, ## __VA_ARGS__)

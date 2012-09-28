@@ -119,7 +119,7 @@
                                      , floor((thisRowEndCell - thisRowStartCell + 1) * hDiff)
                                      , floor(vDiff));
             rect = UIEdgeInsetsInsetRect(rect, rectInset);
-            NSLog( @"%@", NSStringFromCGRect(rect) );
+            PMLog( @"%@", NSStringFromCGRect(rect) );
             UIBezierPath* selectedRectPath = [UIBezierPath bezierPathWithRoundedRect: rect
                                                                         cornerRadius: cornerRadius];
             [[PMThemeEngine sharedInstance] drawPath: selectedRectPath
